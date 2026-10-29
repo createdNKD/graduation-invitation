@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fdfbf7" />
+  <meta name="description" content="Thiệp mời lễ tốt nghiệp — một ngày đặc biệt, một hành trình đáng nhớ." />
+  <title>Graduation Invitation | Lễ Tốt Nghiệp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <nav class="topbar">
+      <a class="brand" href="#home">a day to remember<span>✦</span></a>
+      <a class="nav-link" href="#details">Thông tin buổi lễ <span>↗</span></a>
+    </nav>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-star">✦</span> A NEW CHAPTER BEGINS</p>
+          <h1>Một hành trình<br>khép lại, <em>một</em><br>giấc mơ bắt đầu.</h1>
+          <p class="hero-intro">Trân trọng mời bạn đến chung vui trong ngày tốt nghiệp đặc biệt của</p>
+          <p class="graduate-name" id="graduateName">Tên Bạn Gái</p>
+          <div class="hero-meta">
+            <div><span class="meta-label">NGÀY DIỄN RA</span><strong id="heroDate">20.11.2026</strong></div>
+            <i></i>
+            <div><span class="meta-label">ĐỊA ĐIỂM</span><strong id="heroVenue">Tên trường đại học</strong></div>
+          </div>
+          <a class="button button-dark" href="#details">Xem lời mời <span>↓</span></a>
+        </div>
+        <div class="hero-art">
+          <div class="sun-shape"></div>
+          <div class="photo-frame">
+            <img id="heroPhoto" src="assets/graduate-placeholder.svg" alt="Ảnh tốt nghiệp" />
+            <div class="photo-note">the beginning<br>of something beautiful</div>
+          </div>
+          <div class="floating-stamp">CLASS OF<br><b>2026</b><span>✦</span></div>
+          <div class="scribble">with love ♡</div>
+        </div>
+        <div class="hero-bottom"><span>CHAPTER 01 — THE GRADUATION</span><span>MADE WITH LOVE <b>♡</b></span></div>
+      </section>
+
+      <section class="countdown-section">
+        <p class="eyebrow centered">THE BIG DAY IS COMING</p>
+        <h2>Đếm ngược đến <em>ngày vui</em></h2>
+        <div class="countdown" aria-label="Đồng hồ đếm ngược">
+          <div><strong id="days">00</strong><span>NGÀY</span></div><b>:</b>
+          <div><strong id="hours">00</strong><span>GIỜ</span></div><b>:</b>
+          <div><strong id="minutes">00</strong><span>PHÚT</span></div><b>:</b>
+          <div><strong id="seconds">00</strong><span>GIÂY</span></div>
+        </div>
+        <p class="countdown-note" id="countdownNote">Mong được gặp bạn trong ngày đặc biệt này.</p>
+      </section>
+
+      <section class="invitation section-pad">
+        <div class="section-kicker">01 / THE INVITATION</div>
+        <div class="invitation-content">
+          <p class="script-line">Dear our favorite people,</p>
+          <h2>Một cột mốc nhỏ,<br><em>một niềm vui lớn.</em></h2>
+          <p class="body-copy">Vậy là những năm tháng thanh xuân dưới mái trường đại học cũng sắp trở thành kỷ niệm. Sau bao ngày học tập, trưởng thành và gom góp thật nhiều trải nghiệm, <strong id="messageName">Tên Bạn Gái</strong> đã sẵn sàng bước sang một chương mới.</p>
+          <p class="body-copy">Sự hiện diện của bạn sẽ khiến ngày đặc biệt này trở nên trọn vẹn hơn. Hãy đến chung vui, chụp thật nhiều ảnh đẹp và cùng lưu giữ một ký ức thật đáng nhớ nhé!</p>
+          <div class="signature">Trân trọng mời bạn, <span id="signatureName">Tên Bạn Gái</span> ♡</div>
+        </div>
+        <div class="pressed-flower">✳</div>
+      </section>
+
+      <section class="details section-pad" id="details">
+        <div class="section-kicker">02 / SAVE THE DATE</div>
+        <div class="details-heading">
+          <h2>Hẹn gặp bạn<br><em>ở ngày đặc biệt.</em></h2>
+          <p>Đừng quên lưu lại thông tin buổi lễ để chúng mình có thể gặp nhau đúng giờ nhé!</p>
+        </div>
+        <div class="detail-cards">
+          <article class="detail-card">
+            <span class="card-icon">✳</span><p class="card-label">WHEN — THỜI GIAN</p>
+            <h3 id="detailDate">Thứ Sáu, 20 tháng 11, 2026</h3>
+            <p id="detailTime">08:00 – 11:00</p>
+          </article>
+          <article class="detail-card">
+            <span class="card-icon">⌖</span><p class="card-label">WHERE — ĐỊA ĐIỂM</p>
+            <h3 id="detailVenue">Tên trường đại học</h3>
+            <p id="detailAddress">Địa chỉ trường / hội trường</p>
+            <a id="mapLink" class="text-link" href="https://maps.google.com/" target="_blank" rel="noopener">Mở Google Maps ↗</a>
+          </article>
+          <article class="detail-card">
+            <span class="card-icon">♡</span><p class="card-label">DRESS CODE — TRANG PHỤC</p>
+            <h3>Thanh lịch, thoải mái</h3>
+            <p>Trắng · Kem · Hồng pastel</p>
+            <div class="color-dots"><span></span><span></span><span></span><span></span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="memories section-pad">
+        <div class="section-kicker">03 / LITTLE MEMORIES</div>
+        <div class="memories-heading"><h2>Những ngày <em>thanh xuân.</em></h2><p>Mỗi khoảnh khắc đều góp phần tạo nên phiên bản tuyệt vời của hôm nay.</p></div>
+        <div class="gallery">
+          <figure class="gallery-tall"><img src="assets/memory-1.svg" alt="Kỷ niệm thời sinh viên"><figcaption>the days we’ll remember</figcaption></figure>
+          <figure class="gallery-small"><img src="assets/memory-2.svg" alt="Một khoảnh khắc đáng nhớ"><figcaption>little moments</figcaption></figure>
+          <figure class="gallery-small"><img src="assets/memory-3.svg" alt="Một chương mới bắt đầu"><figcaption>new beginnings</figcaption></figure>
+        </div>
+        <p class="gallery-tip">Gợi ý: thay 3 ảnh minh họa bằng ảnh thật của bạn gái trong thư mục <code>assets/</code>.</p>
+      </section>
+
+      <section class="rsvp-section section-pad" id="rsvp">
+        <div class="rsvp-decoration">♡</div>
+        <div class="section-kicker">04 / RSVP</div>
+        <div class="rsvp-layout">
+          <div><h2>Bạn sẽ đến<br><em>chứ?</em></h2><p class="body-copy">Hãy cho chúng mình biết bạn có thể tham dự không nhé. Một lời hồi âm nhỏ sẽ giúp ngày vui được chuẩn bị chu đáo hơn.</p><p class="script-line">Hope to see you there!</p></div>
+          <form id="rsvpForm" class="rsvp-form">
+            <label for="guestName">Tên của bạn *</label><input id="guestName" name="name" required placeholder="Nguyễn Văn A">
+            <label for="guestContact">Zalo / Số điện thoại (không bắt buộc)</label><input id="guestContact" name="contact" placeholder="Thông tin liên hệ">
+            <label for="attendance">Bạn có tham dự không? *</label>
+            <select id="attendance" name="attendance" required><option value="">Chọn câu trả lời</option><option value="Có, mình sẽ đến">Có, mình sẽ đến ♡</option><option value="Rất tiếc, mình không thể đến">Rất tiếc, mình không thể đến</option></select>
+            <label for="guestCount">Số người tham dự (tính cả bạn)</label><select id="guestCount" name="count"><option>1</option><option>2</option><option>3</option><option>4+</option></select>
+            <label for="guestWish">Lời chúc gửi đến cô gái tốt nghiệp</label><textarea id="guestWish" name="wish" rows="3" placeholder="Viết vài lời dễ thương..."></textarea>
+            <button class="button button-dark submit-button" type="submit">Gửi xác nhận <span>↗</span></button>
+            <p class="form-hint">Bản demo hiện mở ứng dụng email để gửi phản hồi. Xem README để kết nối Google Sheets nếu muốn lưu câu trả lời tự động.</p>
+            <p class="form-message" id="formMessage" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#home">a day to remember<span>✦</span></a><p>Thank you for being part of this chapter.</p><span class="footer-heart">♡</span><small>MADE WITH LOVE · CLASS OF 2026</small></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
